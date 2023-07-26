@@ -2,6 +2,8 @@
 @tailwind components;
 @tailwind utilities;
 
+@import url("https://fonts.googleapis.com/css2?family=Inter&family=Open+Sans:wght@400;500;600;700&family=Poppins&display=swap");
+
 :root {
     --foreground-rgb: 0, 0, 0;
     --background-start-rgb: 214, 219, 220;
@@ -16,11 +18,31 @@
     }
 }
 
-body {
-    color: rgb(var(--foreground-rgb));
-    background: #26282b;
+* {
+    font-family: "Open Sans", sans-serif;
 }
 
-.latin {
-  color: #90B8F8;
+body {
+    color: rgb(var(--foreground-rgb));
+    background: #161616;
+}
+
+/* Hide the scrollbar for both vertical and horizontal directions */
+.container {
+    scrollbar-width: none; /* Firefox */
+    -ms-overflow-style: none; /* Internet Explorer and Edge */
+}
+
+/* Show the scrollbar when hovering over the container */
+.container:hover {
+    scrollbar-width: auto; /* Firefox */
+    -ms-overflow-style: auto; /* Internet Explorer and Edge */
+}
+
+.text-primary {
+    color: #c69749;
+}
+
+.bg-secondary {
+    background: #735f32;
 }
