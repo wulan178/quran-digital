@@ -15,7 +15,7 @@ export default function Page({ data }) {
 
     return (
         <main className="p-4 pb-6">
-            <div className="top-1 left-0 sticky z-20 overflow-hidden rounded-lg w-full flex items-center bg-black bg-opacity-30 backdrop-blur-3xl border md:w-2/5 mx-auto mb-6 pr-1">
+            <div className="top-1 left-0 sticky z-20 overflow-hidden rounded-lg w-full flex items-center bg-black bg-opacity-30 backdrop-blur-3xl border sm:max-w-[32rem] md:max-w-[34rem] mx-auto mb-6 pr-1">
                 <input
                     type="text"
                     className="pl-3 py-3 w-full bg-transparent text-white placeholder-gray-400 focus:outline-none"
