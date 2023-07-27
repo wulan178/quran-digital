@@ -1,12 +1,12 @@
-# Quran Web Project
+# Quran Digital
 
 This is a simple Quran web application built with Next.js and Tailwind CSS. The application fetches Quranic data from the "https://equran.id" API.
 
 ## Live Demo
 
-The application is deployed and can be accessed through the following Vercel URL:
+The application is deployed and can be accessed through the following Netlify URL:
 
-[Quran Web App - Vercel](https://vercel-app-url.vercel.app)
+[Quran Digital - Netlify](https://quran-digital.netlify.app/)
 
 ## Features
 
