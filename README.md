@@ -23,6 +23,4 @@ The application is deployed and can be accessed through the following Netlify UR
 
 The Quranic data is sourced from https://equran.id/apidev. Please refer to their API documentation for more information.
 
-Feel free to explore the code, contribute, or use this project as a starting point for your own Quran-related web applications.
-
 ---
