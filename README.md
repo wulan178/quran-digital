@@ -1,6 +1,6 @@
 # Quran Digital
 
-This is a simple Quran web application built with Next.js and Tailwind CSS. The application fetches Quranic data from the "https://equran.id" API.
+This is a simple Quran web application built with Next.js and Tailwind CSS. The application fetches Quranic data from the https://equran.id API.
 
 ## Live Demo
 
