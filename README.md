@@ -19,34 +19,6 @@ The application is deployed and can be accessed through the following Netlify UR
 - Next.js
 - Tailwind CSS
 
-## Installation
-
-1. Clone the repository:
-
-```bash
-git clone https://github.com/your-username/quran-web.git
-```
-
-2. Navigate to the project directory:
-
-```bash
-cd quran-web
-```
-
-3. Install dependencies:
-
-```bash
-npm install
-```
-
-4. Run the development server:
-
-```bash
-npm run dev
-```
-
-5. Open your browser and visit `http://localhost:3000` to see the Quran web application.
-
 ## API Source
 
 The Quranic data is sourced from "https://equran.id/apidev". Please refer to their API documentation for more information.
