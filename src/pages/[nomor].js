@@ -12,16 +12,6 @@ export async function getServerSideProps(context) {
     return { props: { data } };
 }
 
-export async function generateMetadata({ params }) {
-    const { nomor } = params;
-    const resp = await getSurahDetail(nomor);
-    const data = resp?.data.data;
-
-    return {
-        title: data.namaLatin,
-    };
-}
-
 export default function Page({ data }) {
     const surahAudioRef = useRef(null);
     const ayahAudioRef = useRef(null);

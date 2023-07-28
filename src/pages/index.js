@@ -9,10 +9,6 @@ export async function getServerSideProps() {
     return { props: { data } };
 }
 
-export const metadata = {
-    title: "Quran Digital",
-};
-
 export default function Page({ data }) {
     const [filteredData, setFilteredData] = useState(data);
     const [keyword, setKeyword] = useState([]);
