@@ -6,6 +6,10 @@ const open_sans = Open_Sans({
     subsets: ["latin"],
 });
 
+export const metadata = {
+    title: "My Page Title",
+};
+
 export default function MyApp({ Component, pageProps }) {
     return (
         <main className={open_sans.className}>

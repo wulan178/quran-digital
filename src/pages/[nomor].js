@@ -12,8 +12,13 @@ export async function getServerSideProps(context) {
     return { props: { data } };
 }
 
+export async function generateMetadata({ data }) {
+    return {
+        title: data.namaLatin,
+    };
+}
+
 export default function Page({ data }) {
-    console.log(data);
     const surahAudioRef = useRef(null);
     const ayahAudioRef = useRef(null);
     const [surahAudio, setSurahAudio] = useState(false);
