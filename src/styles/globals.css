@@ -4,7 +4,7 @@
 
 body {
     color: rgb(var(--foreground-rgb));
-    background: #161616;
+    background: #1a1a1a;
     color: white;
 }
 
@@ -18,12 +18,4 @@ body {
 .container:hover {
     scrollbar-width: auto; /* Firefox */
     -ms-overflow-style: auto; /* Internet Explorer and Edge */
-}
-
-.text-primary {
-    color: #c69749;
-}
-
-.bg-secondary {
-    background: #735f32;
 }

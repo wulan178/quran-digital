@@ -1,14 +1,14 @@
-import '@/styles/globals.css'
-import { Open_Sans } from "next/font/google";
+import "@/styles/globals.css";
+import { Raleway } from "next/font/google";
 
-const open_sans = Open_Sans({
+const raleway = Raleway({
     weight: ["400", "500", "600", "700"],
     subsets: ["latin"],
 });
 
 export default function MyApp({ Component, pageProps }) {
     return (
-        <main className={open_sans.className}>
+        <main className={raleway.className}>
             <Component {...pageProps} />
         </main>
     );
